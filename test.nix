@@ -1,4 +1,4 @@
-{ writeScript }:
-writeScript "vlspkgs-test" ''
+{ writeScriptBin }:
+writeScriptBin "vlspkgs-test" ''
   echo "Test Successful"
 ''
